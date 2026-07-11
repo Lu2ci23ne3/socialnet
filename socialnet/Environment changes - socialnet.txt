@@ -1,0 +1,34 @@
+# Terminal Environment Changes
+
+## Extension: vscode.git
+
+Enables the following features: git auth provider
+
+- `GIT_ASKPASS=c:\Users\espar\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass.sh`
+- `VSCODE_GIT_ASKPASS_NODE=C:\Users\espar\AppData\Local\Programs\Microsoft VS Code\Code.exe`
+- `VSCODE_GIT_ASKPASS_EXTRA_ARGS=`
+- `VSCODE_GIT_ASKPASS_MAIN=c:\Users\espar\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\70789581cae28aa7\askpass-main.js`
+- `VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-18fb3de0f3-sock`
+
+## Extension: GitHub.copilot-chat
+
+Enables use of `copilot-debug` and `copilot` commands in the terminal
+
+- `COPILOT_DEBUG_NONCE=7aaa46c5ea2e6a2efcb18ed09d8bd553`
+- `PATH=c:\Users\espar\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\espar\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;${env:PATH}`
+
+## Extension: ms-python.python
+
+Enables `python.terminal.shellIntegration.enabled` by modifying `PYTHONSTARTUP` and `PYTHON_BASIC_REPL`
+
+- `PYTHONSTARTUP=c:\Users\espar\AppData\Roaming\Code\User\workspaceStorage\c2458690d53ca90ae57b4ba2536edbac\ms-python.python\pythonrc.py`
+- `PYTHON_BASIC_REPL=1`
+
+## Extension: ms-python.debugpy
+
+Enables use of [no-config debugging](https://github.com/microsoft/vscode-python-debugger/wiki/No%E2%80%90Config-Debugging), `debugpy <script.py>`, in the terminal.
+
+- `PYDEVD_DISABLE_FILE_VALIDATION=1`
+- `VSCODE_DEBUGPY_ADAPTER_ENDPOINTS=c:\Users\espar\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\.noConfigDebugAdapterEndpoints\endpoint-505da10c65d992a8.txt`
+- `PATH=${env:PATH};c:\Users\espar\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\scripts\noConfigScripts`
+- `BUNDLED_DEBUGPY_PATH=c:\Users\espar\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\libs\debugpy`
